@@ -1,0 +1,19 @@
+.turne {
+    background-color: aqua;
+}
+
+.titte_turne {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 3;
+
+}
+
+.img_turne img  {
+   width: 1150px;
+   margin-top: -120px;
+   margin-left: 35px;
+   margin-bottom: -27px;
+   z-index: 1;
+}

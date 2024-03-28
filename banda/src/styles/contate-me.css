@@ -1,0 +1,47 @@
+@import url(header.css);
+
+#contate-me {
+    background: url(/src/img/home3.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form input {
+    width: 100%;
+    background-color: #91028c;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 25px;
+    color: #000000;
+    font-size: 18px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_tittle {
+    font-size: 2rem;
+}
+
+.section_subtittle {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.btn_default {
+    cursor: pointer;
+    margin-bottom: 123px;
+}

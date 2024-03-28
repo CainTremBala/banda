@@ -1,0 +1,29 @@
+@import url(header.css);
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/src/img/home2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img_home {
+    background-color: transparent;
+    height: 600px;
+    display: flex;
+    border-radius: 20%;
+}
+
+.descriçao {
+    font-size: 1.2rem;
+    flex-direction: column;
+    color: #000000;
+    background-color: transparent;
+}
+
+.texto1 {
+    margin-bottom: 25px;
+}

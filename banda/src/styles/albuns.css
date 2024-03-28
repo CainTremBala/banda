@@ -1,0 +1,52 @@
+@import url(header.css);
+
+#albuns {
+    background-color: aqua;
+    padding-bottom: 139px;
+}
+
+
+.album_cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.album {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 8px;
+    width: 25%;
+    padding: 15px;
+    background-color: #282828;
+    box-shadow: 0px 0px 12px 4px rgb(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.album img {
+    height: 200px;
+    width: 200px; 
+    border-radius: 10%;
+    margin-left: 30px;
+}
+
+.album_descriçao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #fff;
+}
+
+.album_title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
